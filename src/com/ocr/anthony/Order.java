@@ -15,6 +15,7 @@ public class Order {
         System.out.println("3 - Végétarien");
         System.out.println("Que souhaitez-vous comme menu ?");
 
+
     }
 
     /**
