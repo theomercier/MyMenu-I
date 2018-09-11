@@ -27,6 +27,19 @@ public class Order {
         /*Scanner sc = new Scanner(System.in);
         int nbMenu = sc.nextInt();*/
 
-        System.out.println("Vous avez choisi le menu : " +nbMenu);
+        String choix = "a";
+
+        if (nbMenu == 1) {
+            choix = "Poulet";
+        } else if (nbMenu == 2) {
+            choix = "Boeuf";
+        } else if (nbMenu == 3) {
+            choix = "Végétarien";
+        } else {
+            choix = "Pas de choix";
+        }
+
+
+        System.out.println("Vous avez choisi le menu : " + choix);
     }
 }
